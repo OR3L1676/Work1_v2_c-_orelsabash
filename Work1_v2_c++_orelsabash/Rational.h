@@ -15,5 +15,6 @@ public:
     Rational();
     Rational(int x, int y);
     void fractureReduction();
+    void printNumDec();
 };
 void whoIsBigger(Rational num1, Rational num2);
