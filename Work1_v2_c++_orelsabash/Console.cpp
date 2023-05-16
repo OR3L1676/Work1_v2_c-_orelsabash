@@ -16,6 +16,7 @@ int main()
     Rational num3(6, 0);
     num3.printNum();
     whoIsBigger(num1, num2);
+    num1.printNumDec();
 
     return 0;
 }
