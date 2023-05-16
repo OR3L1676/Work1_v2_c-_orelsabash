@@ -61,6 +61,10 @@ using namespace std;
         denomirator = minY;
         cout << "Number before reduced fracture: " << xBefore << "/" << yBefore << "\nNumber after reduced fracture: " << numberator << "/" << denomirator << "\n";
     }
+    void Rational::printNumDec()
+    {
+        cout << static_cast<float>(numberator) / denomirator << "\n";
+    }
     void whoIsBigger(Rational num1, Rational num2) {
         double x = static_cast<double>(num1.getNumbertor()) / num1.getNumbertor();
         double y = static_cast<double>(num2.getNumbertor()) / num2.getNumbertor();
